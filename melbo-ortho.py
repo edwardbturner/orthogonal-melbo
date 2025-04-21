@@ -11,7 +11,7 @@ from torch import nn
 from torch.utils.data import DataLoader, TensorDataset
 from tqdm import tqdm
 from tqdm.auto import trange
-from transformer_lens.hook_points import HookPoint
+from transformer_lens.hook_points import HookPoint  # type: ignore
 from transformers import AutoTokenizer, PreTrainedTokenizer
 
 # %%
